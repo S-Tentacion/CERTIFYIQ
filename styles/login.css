@@ -1,0 +1,65 @@
+.flex-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-wrap > .curve-card {
+  margin-bottom: 50px;
+}
+.login {
+  width: 100%;
+}
+
+.curve-card {
+  border-radius: 30px 30px;
+  box-shadow: rgb(255 255 255) 2px 1000px 1px inset !important;
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  border: 2px solid transparent;
+  padding: 30px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, rgb(81, 145, 213), rgb(211, 18, 151));
+}
+form .svgContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1em;
+  border-radius: 50%;
+  background: none;
+  border: solid 2.5px #3a5e77;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.form-control {
+  color: #676565;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0 20px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  font-size: 16px;
+  height: 45px;
+  font-weight: 500;
+}
+.red_link {
+  color: #eb1e1a;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .flex-wrap > .curve-card {
+    margin-bottom: 0px;
+    padding: 15px;
+  }
+}
